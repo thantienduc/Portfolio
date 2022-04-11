@@ -5,7 +5,7 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
+      <h5>What Am I Interrested In</h5>
       <h2>Services</h2>
       <div className='container services__container'>
         
@@ -17,19 +17,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Design back-end for outzoner</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Set up infa and develope live notification feature for web application </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Applying pub/sub architecture to notice the change on web</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Set up staging and Heroku Pipline for app</p>
             </li>
           </ul>
         </article>
@@ -42,19 +42,16 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Applying Google Cloud Platform to deploy back-end</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Design API for translating image to text</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Para go here</p>
+              <p>Applied Python knowledge to create function using GCP API that kept the server operating on Google Function
+platform in form of deployment</p>
             </li>
           </ul>
         </article>

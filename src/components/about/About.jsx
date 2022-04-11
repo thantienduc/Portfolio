@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/about_duc.jpeg'
 import {FaAward} from 'react-icons/fa'
 
 const About = () => {
@@ -21,10 +21,11 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
+              <a href='https://www.outzoner.com/profile/9/milestones'>Live Demo</a>
             </article>
           </div>
           <p>
-            Hello
+            I graduated Computer Science at University of Texas at Arlington. I am working for the start-up project, outzoner. This is a social web application where people can share their story about their job and ways to land a new job.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
